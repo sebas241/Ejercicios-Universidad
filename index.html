@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Formulario de registro</h1>
-    <label for="Nombre:">Nombre:</label>       
-    <input type="text" id= "Nombre" name=Nombre required><br><br>
-    
-     <label for="Apellido:">Apellido:</label>   
-     <input type="text" id="Apellido" name="Apellido" required><br><br>
 
-     <label for="Modalidad cursada:">Modalidad cursada:</label>
-     <input type="checkbox" name="On-Demand" id="On-Demand"><label for="On-Demand">On-Demand</label>
-     
-     <input type="checkbox" name="En vivo" id="En vivo"><label for="En vivo">En vivo</label>
-      <br><br>
+    <!--IDs: Un ID es un identificador único que se asigna a un solo elemento en una página, así: -->
+    <!--Ejemplo navbar-->
+    <nav id="navbar"> <!--Aquí el nav tiene el ID "navbar"-->
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
 
-      <label for="Correo:">Correo</label>
-      <input type="text" name="Ingresa Correo" id="Ingresa Correo"><br><br>
+    <!--Clases: Una clase permite aplicar estilos reutilizables a varios elementos, así: -->
+    <h1 class="titulo">Tienda de sombreros.</h1> <!--Aquí el h1 tiene la clase "titulo"-->
+    <h1>Tipico sombrero aguadeño.</h1> <!--Aquí el h1 no tiene la clase "titulo"-->
+    <h1 class="titulo">Aguadas tierra de tradicion</h1> <!--Aquí el h1 tiene la clase "titulo"-->
+    <h1> Tradicion y cultura </h1> <!--Aquí el h1 no tiene la clase "titulo"-->
 
-      <input type="checkbox" name="" id=""> <label for="Deseo recibir informacion.">Deseo recibir informacion.</label><br><br>
-      <input type="checkbox" name="" id="">  <label for="Declaro que lei los terminos y condiciones.">Declaro que lei los terminos y condiciones.</label><br>
+     <h3>Ingresa si quieres comenzar esta experiencia Cultural.</h3>
 
-     <br> <button>Enviar</button>
-     <br>
-     <br>
-     <a href="./ejercicio 2/index.html">Ejercicio 2</a><br><br>
-     <a href="./Proyecto (1)/index.html">Ejercicio 1</a>
-    </body>
+    <!--Selectores por Atributos:  -->
+    <!--Los atributos en HTML proporcionan información adicional sobre los elementos.
+     Pueden usar selectores de atributos en CSS para aplicar estilos a elementos basados 
+     en la presencia o el valor de un atributo específico. -->
+    <input type="password" placeholder="Contraseña">
+    <br>
+    <button class="boton">Ingresar</button>
+
+   
+    <div class="card">
+        <div class="text">
+            <h2>Tarjeta con algo</h2>
+            <p>El Sombrero Aguadeño tiene sus orígenes en el municipio de Aguadas, Caldas, Colombia, en el siglo XIX, cuando el ecuatoriano Juan Crisóstomo Flórez introdujo la técnica de tejido de la palma de Iraca. Este sombrero se convirtió en un ícono de la cultura paisa y un importante producto de exportación, y en 2012 obtuvo la denominación de origen, que garantiza que sea elaborado en Aguadas con fibra local. </p>
+        </div>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdipRyFFxpZY4xe959lpq52AjIjCrKjMXAAg&s" alt="">
+            
+
+    </div>
+</body>
 
 </html>
